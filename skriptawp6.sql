@@ -1,24 +1,19 @@
 ﻿-- Ovo je SQL skripta
 
+-- prebacujem se na master bazu
 use master;
-go
+go -- dajemo mu vremena da se prebaci 
 
+-- brišem postojeću bazu ako postoji
 drop database if exists edunovawp6;
 go
-
+-- kreiram novu bazu
 create database edunovawp6;
 go
-
+-- pozicioniram se na bazu
 use edunovawp6;
 go
-
-
---create database edunovawp6;
-
---drop database edunovawp6;
-
---use edunovawp6;
-
+-- kreiram tablice
 create table smjerovi(
 sifra int not null primary key identity(1,1),
 naziv varchar(50) not null, 
