@@ -21,16 +21,16 @@ IBAN varchar(50) not null
 
 create table prostorija(
 sifra int not null primary key identity(1,1),
-dimenzije varchar(50) not null,
-prezime varchar(50) not null,
-IBAN varchar(50) not null
+dimenzije varchar(30) not null,
+maks_broj int not null,
+mjesto varchar(30) not null
 );
 
-create table djelatnik(
+create table datum(
 sifra int not null primary key identity(1,1),
-ime varchar(50) not null,
-prezime varchar(50) not null,
-IBAN varchar(50) not null
+d_rodenja datetime,
+d_dolaska datetime,
+d_smrti datetime
 );
 
 create table zivotinja(
