@@ -1,9 +1,7 @@
 ﻿-- Ovo je SQL skripta
-
--- prebacujem se na master bazu
+-- prebacujem se na master bazi
 use master;
-go -- dajemo mu vremena da se prebaci 
-
+go -- dajemo mu vremena da se prebaci prije nego što ide dalje
 -- brišem postojeću bazu ako postoji
 drop database if exists edunovawp6;
 go
@@ -16,8 +14,8 @@ go
 -- kreiram tablice
 create table smjerovi(
 sifra int not null primary key identity(1,1),
-naziv varchar(50) not null, 
-cijena decimal(18,2) null, --null se ne mora pisati, ako nema ničega tada je vrijednost null
+naziv varchar(50) not null,
+cijena decimal(18,2) null, -- null se ne mora pisati
 izvodiseod datetime,
 vaucer bit
 );
@@ -41,7 +39,7 @@ sifra int not null primary key identity(1,1),
 ime varchar(50) not null,
 prezime varchar(50) not null,
 email varchar(100) not null,
-oib char(11) 
+oib char(11)
 );
 
 create table clanovi(
