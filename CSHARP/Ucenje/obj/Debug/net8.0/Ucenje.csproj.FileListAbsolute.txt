@@ -13,3 +13,18 @@ C:\Moji radovi\New folder\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\refint\Ucenje
 C:\Moji radovi\New folder\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.pdb
 C:\Moji radovi\New folder\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.genruntimeconfig.cache
 C:\Moji radovi\New folder\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\ref\Ucenje.dll
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\bin\Debug\net8.0\Ucenje.exe
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\bin\Debug\net8.0\Ucenje.deps.json
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\bin\Debug\net8.0\Ucenje.runtimeconfig.json
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\bin\Debug\net8.0\Ucenje.dll
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\bin\Debug\net8.0\Ucenje.pdb
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.AssemblyInfoInputs.cache
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.AssemblyInfo.cs
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.csproj.CoreCompileInputs.cache
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.sourcelink.json
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.dll
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\refint\Ucenje.dll
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.pdb
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\Ucenje.genruntimeconfig.cache
+C:\Nova mapa\UcenjeWP6\CSHARP\Ucenje\obj\Debug\net8.0\ref\Ucenje.dll

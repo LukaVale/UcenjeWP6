@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ucenje.E17KlasaObject.edunova;
 
 namespace Ucenje.E17KlasaObject
 {
@@ -40,7 +41,41 @@ namespace Ucenje.E17KlasaObject
 
             Mjesto mjesto = new Mjesto() { Naziv = "Osijek", PostanskiBroj = "31000" };
 
-            osoba.Mjesto = mjesto;
+            //osoba.Mjesto = mjesto;
+
+            //Console.WriteLine(osoba.Mjesto.Naziv); // imamo nullreferanceexceptin
+
+            if (osoba.Mjesto!=null)
+            {
+                Console.WriteLine(osoba.Mjesto.Naziv);
+            }
+            //kraći način
+            Console.WriteLine(osoba.Mjesto?.Naziv);
+
+            osoba.Mjesto = new Mjesto() { Naziv = "Osijek" };
+
+            Console.WriteLine(osoba.Mjesto.Zupanija?.Zupan??"Prazno");
+
+            Smjer smjer = new Smjer(){ Naziv = "Web programiranje" };
+            Grupa grupa = new Grupa() { Naziv="WP6", Smjer=smjer };
+
+            Polaznik[] polazniciNiz = new Polaznik[2];
+            polazniciNiz[0] = new Polaznik() { Ime = "Pero" };
+            polazniciNiz[1] = new Polaznik() { Ime = "Marija" };
+
+            grupa.Polaznici = polazniciNiz;
+
+            //Ispisati podatke o grupi
+
+            Console.WriteLine(grupa.Naziv);
+            Console.WriteLine(grupa.Smjer.Naziv);
+            foreach (Polaznik p in grupa.Polaznici)
+            {
+                Console.WriteLine("{0} {1}", p.Ime, p.Prezime);
+            }
+
+            Console.WriteLine("*****************");
+            grupa.DetaljiGrupe();
 
         }
 
