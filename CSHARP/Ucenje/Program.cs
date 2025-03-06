@@ -2,7 +2,9 @@
 using Ucenje;
 // Nova instanca klase program
 
-new Ucenje.E17KlasaObject.Program();
+//test.Izvedi();
+new Ucenje.E20KonzolnaAplikacija.Izbornik();
+//new Ucenje.E17KlasaObject.Program();
 //ZimskiZadatci.Izvedi();
 //GeneratorLozinki.Izvedi();
 //CiklicnaTablica.Izvedi();

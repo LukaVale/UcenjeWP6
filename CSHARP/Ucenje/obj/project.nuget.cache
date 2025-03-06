@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "1N9dkxLTFEs=",
+  "dgSpecHash": "jyqb0snHmlE=",
   "success": true,
   "projectFilePath": "C:\\Nova mapa\\UcenjeWP6\\CSHARP\\Ucenje\\Ucenje.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\38599\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\swashbuckle.aspnetcore\\7.3.1\\swashbuckle.aspnetcore.7.3.1.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.3.1\\swashbuckle.aspnetcore.swagger.7.3.1.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.3.1\\swashbuckle.aspnetcore.swaggergen.7.3.1.nupkg.sha512",
+    "C:\\Users\\38599\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.3.1\\swashbuckle.aspnetcore.swaggerui.7.3.1.nupkg.sha512"
+  ],
   "logs": []
 }
