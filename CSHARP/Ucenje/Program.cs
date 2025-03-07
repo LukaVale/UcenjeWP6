@@ -3,7 +3,9 @@ using Ucenje;
 // Nova instanca klase program
 
 //test.Izvedi();
-new Ucenje.E20KonzolnaAplikacija.Izbornik();
+
+new Ucenje.PlesniKlubKonzolna.Izbornik();
+//new Ucenje.E20KonzolnaAplikacija.Izbornik();
 //new Ucenje.E17KlasaObject.Program();
 //ZimskiZadatci.Izvedi();
 //GeneratorLozinki.Izvedi();

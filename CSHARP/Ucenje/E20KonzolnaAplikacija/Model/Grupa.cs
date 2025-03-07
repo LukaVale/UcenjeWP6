@@ -1,6 +1,4 @@
-﻿using Ucenje.E17KlasaObject.edunova;
-
-namespace Ucenje.E20KonzolnaAplikacija.Model
+﻿namespace Ucenje.E20KonzolnaAplikacija.Model
 {
     internal class Grupa : Entitet
     {
